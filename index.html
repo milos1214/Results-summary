@@ -1,47 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | Results summary component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
+
 <body>
 
-  Your Result
-  76
-  of 100
+  <div class="container">
+    <div class="left">
+      <p class="your-result">Your Result</p>
 
-  Great
-  You scored higher than 65% of the people who have taken these tests.
-  
-  Summary
+      <div class="circle">
+        <span class="result">76</span>
+        <p class="out-of">of 100</p>
+      </div>
 
-  Reaction
-  80 / 100
+      <h3 class="feedback">Great</h3>
+      <p class="feedback-p">You scored higher than 65% of the people who have taken these tests.</p>
+    </div>
 
-  Memory
-  92 / 100
+    <div class="right">
+      <h3 class="summary">Summary</h3>
 
-  Verbal
-  61 / 100
+      <div class="flex-summary reaction">
+        <span class="left-span">
+          <img src="/assets/images/icon-reaction.svg">
+          <h4 class="h4-summary">Reaction</h4>
+        </span>
 
-  Visual
-  72 / 100
+        <span>
+          <b>80</b>
+          <span class="transparent-span">/ 100</span>
+        </span>
 
-  Continue
-  
+      </div>
+
+
+      <div class="flex-summary memory">
+        <span class="left-span">
+          <img src="/assets/images/icon-memory.svg">
+          <h4 class="h4-memory">Memory</h4>
+        </span>
+
+        <span>
+          <b>92</b>
+          <span class="transparent-span">/ 100</span>
+        </span>
+
+      </div>
+
+      <div class="flex-summary verbal">
+        <span class="left-span">
+          <img src="/assets/images/icon-verbal.svg">
+          <h4 class="h4-verbal">Verbal</h4>
+        </span>
+
+        <span>
+          <b>61</b>
+          <span class="transparent-span">/ 100</span>
+        </span>
+
+      </div>
+
+      <div class="flex-summary visual">
+        <span class="left-span">
+          <img src="/assets/images/icon-visual.svg">
+          <h4 class="h4-visual">Visual</h4>
+        </span>
+
+        <span>
+          <b>72</b>
+          <span class="transparent-span">/ 100</span>
+        </span>
+
+      </div>
+
+      <button>Continue</button>
+    </div>
+  </div>
+
+
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/milos1214">Miloš Stanković</a>.
   </div>
 </body>
+
 </html>
