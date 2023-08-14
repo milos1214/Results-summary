@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;500;700;800&display=swap");
 
 .attribution {
   font-size: 11px;
@@ -107,7 +107,7 @@ p {
 
 .feedback-p {
   margin: 0;
-  font-weight: 500;
+  font-weight: 300;
   font-size: 12px;
   opacity: 80%;
   width: 75%;
@@ -262,7 +262,7 @@ button:hover {
 
   .feedback-p {
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 300;
     margin-bottom: 40px;
   }
 

@@ -11,7 +11,7 @@
 
 <body>
 
-  <div class="container">
+  <div class="container" role="main">
     <div class="left">
       <p class="your-result">Your Result</p>
 
@@ -29,12 +29,12 @@
 
       <div class="flex-summary reaction">
         <span class="left-span">
-          <img src="/assets/images/icon-reaction.svg">
-          <h4 class="h4-summary">Reaction</h4>
+          <img class="reaction-img">
+          <h4 class="h4-summary"></h4>
         </span>
 
         <span>
-          <b>80</b>
+          <b class="reaction-score"></b>
           <span class="transparent-span">/ 100</span>
         </span>
 
@@ -43,12 +43,12 @@
 
       <div class="flex-summary memory">
         <span class="left-span">
-          <img src="/assets/images/icon-memory.svg">
-          <h4 class="h4-memory">Memory</h4>
+          <img class="memory-img">
+          <h4 class="h4-memory"></h4>
         </span>
 
         <span>
-          <b>92</b>
+          <b class="memory-score"></b>
           <span class="transparent-span">/ 100</span>
         </span>
 
@@ -56,12 +56,12 @@
 
       <div class="flex-summary verbal">
         <span class="left-span">
-          <img src="/assets/images/icon-verbal.svg">
+          <img class="verbal-img" src="/assets/images/icon-verbal.svg">
           <h4 class="h4-verbal">Verbal</h4>
         </span>
 
         <span>
-          <b>61</b>
+          <b class="verbal-score">61</b>
           <span class="transparent-span">/ 100</span>
         </span>
 
@@ -69,12 +69,12 @@
 
       <div class="flex-summary visual">
         <span class="left-span">
-          <img src="/assets/images/icon-visual.svg">
+          <img class="visual-img" src="/assets/images/icon-visual.svg">
           <h4 class="h4-visual">Visual</h4>
         </span>
 
         <span>
-          <b>72</b>
+          <b class="visual-score">72</b>
           <span class="transparent-span">/ 100</span>
         </span>
 
@@ -84,11 +84,12 @@
     </div>
   </div>
 
-
-  <div class="attribution">
+  <div class="attribution" role="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="https://github.com/milos1214">Miloš Stanković</a>.
   </div>
+
+  <script type="module" src="index.js"></script>
 </body>
 
 </html>
